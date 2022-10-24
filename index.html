@@ -9,15 +9,18 @@
 </head>
 <body>
     <form action="/back/proclogin.php" method="POST">
-        <div id="login">
-            <h1>Login</h1>
-            <h2>Digite usuário e senha:</h2>
-            <input type="text" name="usuário"
-            placeholder="Nome de usuário:">
-            <input type="password" name="senha" placeholder="Senha:">
-            <input type="submit" class="submit">
+        <div id="espaco">
+            <h1>Bem-vindo(a)!</h1>
+            <div id="login">
+                <input type="text" name="usuário"
+                placeholder="Nome de usuário:" class="input">
+                <input type="password" name="senha" placeholder="Senha:" class="input">
+                <div id="enviar">
+                    <input type="submit" class="submit">
+                </div>
+            </div>
+            <div id="esquecer"><p><a href="https://github.com/elidagouv">Esqueci a senha</a></p></div>
         </div>
-        <div id="esquecer"><ins>Esqueci a senha</ins></div>
     </form>
 </body>
 </html>
